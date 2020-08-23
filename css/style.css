@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i');
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i");
 @charset "utf-8";
 
 /* CSS Document */
@@ -9,7 +9,6 @@ html {
   height: 100%;
 }
 
-
 /*setup*/
 
 body,
@@ -19,15 +18,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 700;
 }
-
 
 /*HEADER*/
 
 .heads {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url(../img/bg-01.jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
+    url(https://i.imgur.com/CJ2IhcC.jpg);
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
@@ -40,31 +39,31 @@ h6 {
   background-attachment: scroll;
   padding-bottom: 60px;
   padding-top: 30px;
-  border-top: 3px solid #010F1A;
-  border-bottom: 3px solid #010F1A;
+  border-top: 3px solid #010f1a;
+  border-bottom: 3px solid #010f1a;
 }
 
 .heads h1 {
   color: #fff;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 46px;
   font-weight: bold;
   text-align: center;
-/*  text-shadow: 1px 1px 1px #505050;*/
+  /*  text-shadow: 1px 1px 1px #505050;*/
 }
 
 .heads h2 {
   color: #fff;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 30px;
   font-weight: 400;
   text-align: center;
-/*  text-shadow: 1px 0px 1px #000000;*/
+  /*  text-shadow: 1px 0px 1px #000000;*/
 }
 
 .heads h3 {
   color: #fff;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 24px;
   font-weight: 400;
   text-align: center;
@@ -100,7 +99,7 @@ h6 {
 }
 
 .btn-warning {
-  background: #F7CA18;
+  background: #f7ca18;
   border-color: #f1c40f;
   border-radius: 10px;
   box-shadow: 2px 2px 3px 0px rgba(34, 34, 34, 0.8);
@@ -121,19 +120,18 @@ h6 {
   width: 100%;
 }
 
-
 /*CONTENT TOP*/
 .content-top {
   background-color: #f5f5f5;
   padding-top: 50px;
   padding-bottom: 50px;
-  border-bottom: 3px solid #010F1A;
+  border-bottom: 3px solid #010f1a;
 }
 
 .para-top {
   color: #333;
   display: block;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
@@ -142,12 +140,12 @@ h6 {
 }
 
 .item-top {
-  background: url(../img/10.png) 5px 6px no-repeat;
+  background: url(https://i.imgur.com/3aGPo8r.png) 5px 6px no-repeat;
   padding-left: 50px;
 }
 
 .para-item-top {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   text-align: left;
   font-size: 22px;
   font-weight: 400;
@@ -157,7 +155,6 @@ h6 {
   margin: 0 auto;
   max-width: 800px;
 }
-
 
 /*CONTENT DESC*/
 .content-desc {
@@ -173,10 +170,10 @@ h6 {
   max-width: 800px;
 }
 
-
 /*CONTENT POST*/
 .content-post {
-  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8)), url(../img/bg-02.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8)),
+    url(https://i.imgur.com/T6bkigv.jpg);
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -186,7 +183,7 @@ h6 {
 }
 
 .para-post {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
@@ -204,7 +201,6 @@ hr.separate {
   width: 100%;
 }
 
-
 /*CONTENT PRODUCT*/
 .content-prod {
   background-color: #fff;
@@ -213,7 +209,7 @@ hr.separate {
 }
 
 .para-prod {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   text-align: center;
   font-size: 20px;
   font-weight: 400;
@@ -225,16 +221,16 @@ hr.separate {
 }
 
 .para-prod h1 {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   color: #105077;
-/*  text-shadow: 1px 1px 1px #505050;*/
+  /*  text-shadow: 1px 1px 1px #505050;*/
   font-size: 55px;
   font-weight: bold;
   text-align: center;
 }
 
 .para-prod h2 {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   color: #070601;
   font-size: 34px;
   font-weight: bold;
@@ -245,7 +241,6 @@ hr.separate {
   font-weight: 400;
 }
 
-
 /*CONTENT CAP*/
 .content-cap {
   background: -webkit-linear-gradient(#053756 0%, #153f59 47%, #053756 100%);
@@ -255,14 +250,17 @@ hr.separate {
   color: #fff;
   padding-top: 20px;
   padding-bottom: 30px;
-  border-top: 3px solid #010F1A;
-  border-bottom: 3px solid #010F1A;
+  border-top: 3px solid #010f1a;
+  border-bottom: 3px solid #010f1a;
 }
-
 
 /*CONTENT LIST*/
 .content-list {
-  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9)), url(../img/bg-03.jpg);
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url(https://i.imgur.com/X52KKOD.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center right;
@@ -271,12 +269,12 @@ hr.separate {
 }
 
 .item-list {
-  background: url(../img/11.png) 5px 6px no-repeat;
+  background: url(https://i.imgur.com/f0zyjgr.png) 5px 6px no-repeat;
   padding-left: 50px;
 }
 
 .para-list {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   text-align: left;
   font-size: 22px;
   font-weight: 400;
@@ -295,10 +293,13 @@ hr.separate {
   padding: 25px;
 }
 
-
 /*CONTENT SUB LIST*/
 .content-sub-list {
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/bg-04.jpg);
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url(https://i.imgur.com/db4YPw8.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -308,12 +309,12 @@ hr.separate {
 }
 
 .item-sub-list {
-  background: url(../img/12.png) 5px 6px no-repeat;
+  background: url(https://i.imgur.com/gizbEaF.png) 5px 6px no-repeat;
   padding-left: 50px;
 }
 
 .para-sub-list {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   text-align: left;
   font-size: 22px;
   font-weight: 400;
@@ -324,8 +325,6 @@ hr.separate {
   max-width: 800px;
 }
 
-
-
 /*CONTENT PRICE*/
 .content-price {
   background-color: #fff;
@@ -334,7 +333,7 @@ hr.separate {
 }
 
 .para-price {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   text-align: center;
   font-size: 20px;
   font-weight: 400;
@@ -351,7 +350,7 @@ hr.separate {
 }
 
 .para-price-btm {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   text-align: center;
   font-size: 20px;
   font-weight: 400;
@@ -363,7 +362,7 @@ hr.separate {
 }
 
 .para-price-buy {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   text-align: center;
   display: block;
   margin: 0 auto;
@@ -371,16 +370,16 @@ hr.separate {
 }
 
 .para-price-buy h1 {
-  color: #C7141B;
+  color: #c7141b;
   font-size: 48px;
 }
 
 .para-price-buy h2 {
-  color: #C7141B;
+  color: #c7141b;
 }
 
 .para-price-sincerely {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   text-align: left;
   font-size: 24px;
   font-weight: 700;
@@ -419,7 +418,6 @@ hr.separate {
   max-width: 680px;
 }
 
-
 /*CONTENT BONUS*/
 .content-bonus {
   background: #f5f5f5;
@@ -444,7 +442,7 @@ hr.separate {
 }
 
 .well h1 {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   color: #105077;
   font-size: 32px;
   font-weight: bold;
@@ -453,7 +451,7 @@ hr.separate {
 }
 
 .well h2 {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   text-align: center;
   color: #181818;
   font-size: 33px;
@@ -462,7 +460,7 @@ hr.separate {
 }
 
 .well p {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   text-align: center;
   font-size: 20px;
   font-weight: 400;
@@ -470,7 +468,7 @@ hr.separate {
 }
 
 .para-bonus {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   text-align: center;
   font-size: 24px;
   font-weight: 700;
@@ -502,7 +500,8 @@ hr.separate {
 
 /*CONTENT FUP*/
 .content-fup {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(../img/bg-05.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url(https://i.imgur.com/01IeYfY.jpg);
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
@@ -517,7 +516,7 @@ hr.separate {
 }
 
 .para-fup {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   text-align: left;
   font-size: 20px;
   font-weight: 400;
@@ -558,7 +557,6 @@ hr.separate {
   padding-right: 30px;
 }
 
-
 /*CONTENT FAQ*/
 .content-faq {
   padding-top: 50px;
@@ -566,7 +564,7 @@ hr.separate {
 }
 
 .para-faq {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 1.5;
@@ -596,7 +594,7 @@ hr {
 
 .well-faq {
   box-shadow: none;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
@@ -612,7 +610,7 @@ hr {
 
 .box {
   /*background: rgba(246, 246, 246, 1);*/
-  color: #23749E;
+  color: #23749e;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 20px;
@@ -645,7 +643,7 @@ hr {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .heads h1 {
-    font-size: 32px
+    font-size: 32px;
   }
 
   .heads h2 {
@@ -701,7 +699,7 @@ hr {
   }
 }
 
-@media (max-device-width:767px) {
+@media (max-device-width: 767px) {
   .top-p a {
     display: block;
     height: auto;
